@@ -1,5 +1,7 @@
 #define MAX_LETTERS 100
 #define BOOK_DESCRIPTION 512
+#define MAX_BOOK 100
+int book_count = 0;
 
 typedef struct book {
     char name[MAX_LETTERS];
